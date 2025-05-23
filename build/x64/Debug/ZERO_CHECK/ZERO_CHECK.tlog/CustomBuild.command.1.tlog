@@ -1,0 +1,10 @@
+^C:\USERS\MOKHTAR\DESKTOP\AGE ENGINE\BUILD\CMAKEFILES\90101674088405B0816A2EA3C2A7D344\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Mokhtar/Desktop/AGE Engine" "-BC:/Users/Mokhtar/Desktop/AGE Engine/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Mokhtar/Desktop/AGE Engine/build/Azil_Game_Engine.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

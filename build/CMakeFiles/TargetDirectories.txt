@@ -1,0 +1,6 @@
+C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/AGE.dir
+C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/hello.dir
+C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/glad.dir
+C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/PACKAGE.dir
+C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/ZERO_CHECK.dir
