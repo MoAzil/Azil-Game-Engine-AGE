@@ -1,30 +1,26 @@
-cmake_minimum_required(VERSION 3.10.0)
+cmake_minimum_required(VERSION 3.10)
 project(Azil_Game_Engine VERSION 0.1.0 LANGUAGES C CXX)
 
-# Add all source files here
+# Define executable
 add_executable(AGE main.cpp)
 
-add_library(
-    hello
+# Define the window/render library (you probably meant one library with these sources)
+add_library(window STATIC
     renderer/window.cpp
+    renderer/opengl/opengl_renderer.cpp
+    renderer/opengl/glad.c
 )
-# Optional: include directories for headers
 
-target_link_libraries(AGE PRIVATE hello)
-target_include_directories(hello PUBLIC renderer/opengl)
-add_library(glad STATIC renderer/opengl/glad.c)
-target_include_directories(glad PUBLIC renderer/opengl/)
+# Include directories
+target_include_directories(window PUBLIC renderer/opengl)
 target_include_directories(AGE PRIVATE renderer/opengl)
 
-target_link_libraries(AGE PRIVATE
+# Link GLFW and OpenGL
+# NOTE: Adjust glfw3.lib path if you're on Windows and using a custom path
+target_link_libraries(window
     ${CMAKE_CURRENT_SOURCE_DIR}/renderer/opengl/glfw3.lib
     opengl32
-    glad
-    hello
 )
 
-
-# Packaging (optional)
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
+# Link everything to the main executable
+target_link_libraries(AGE PRIVATE window)

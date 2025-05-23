@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-      Build started 5/23/2025 8:03:39 PM.
+      Build started 5/23/2025 10:24:01 PM.
       
       Project "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.09
+      Time Elapsed 00:00:00.50
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-      Build started 5/23/2025 8:03:41 PM.
+      Build started 5/23/2025 10:24:01 PM.
       
       Project "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.59
+      Time Elapsed 00:00:00.51
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-85gl1z"
-      binary: "C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-85gl1z"
+      source: "C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-5hpdiy"
+      binary: "C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-5hpdiy"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-85gl1z'
+        Change Dir: 'C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-5hpdiy'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0a8c2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_783ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-        Build started 5/23/2025 8:03:41 PM.
+        Build started 5/23/2025 10:24:02 PM.
         
-        Project "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gl1z\\cmTC_0a8c2.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hpdiy\\cmTC_783ba.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_0a8c2.dir\\Debug\\".
+          Creating directory "cmTC_783ba.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gl1z\\Debug\\".
-          Creating directory "cmTC_0a8c2.dir\\Debug\\cmTC_0a8c2.tlog\\".
+          Creating directory "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hpdiy\\Debug\\".
+          Creating directory "cmTC_783ba.dir\\Debug\\cmTC_783ba.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0a8c2.dir\\Debug\\cmTC_0a8c2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0a8c2.dir\\Debug\\cmTC_0a8c2.tlog\\unsuccessfulbuild".
+          Creating "cmTC_783ba.dir\\Debug\\cmTC_783ba.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_783ba.dir\\Debug\\cmTC_783ba.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a8c2.dir\\Debug\\\\" /Fd"cmTC_0a8c2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_783ba.dir\\Debug\\\\" /Fd"cmTC_783ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a8c2.dir\\Debug\\\\" /Fd"cmTC_0a8c2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_783ba.dir\\Debug\\\\" /Fd"cmTC_783ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gl1z\\Debug\\cmTC_0a8c2.exe" /INCREMENTAL /ILK:"cmTC_0a8c2.dir\\Debug\\cmTC_0a8c2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-85gl1z/Debug/cmTC_0a8c2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-85gl1z/Debug/cmTC_0a8c2.lib" /MACHINE:X64  /machine:x64 cmTC_0a8c2.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_0a8c2.vcxproj -> C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gl1z\\Debug\\cmTC_0a8c2.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hpdiy\\Debug\\cmTC_783ba.exe" /INCREMENTAL /ILK:"cmTC_783ba.dir\\Debug\\cmTC_783ba.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-5hpdiy/Debug/cmTC_783ba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-5hpdiy/Debug/cmTC_783ba.lib" /MACHINE:X64  /machine:x64 cmTC_783ba.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_783ba.vcxproj -> C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hpdiy\\Debug\\cmTC_783ba.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_0a8c2.dir\\Debug\\cmTC_0a8c2.tlog\\unsuccessfulbuild".
-          Touching "cmTC_0a8c2.dir\\Debug\\cmTC_0a8c2.tlog\\cmTC_0a8c2.lastbuildstate".
-        Done Building Project "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gl1z\\cmTC_0a8c2.vcxproj" (default targets).
+          Deleting file "cmTC_783ba.dir\\Debug\\cmTC_783ba.tlog\\unsuccessfulbuild".
+          Touching "cmTC_783ba.dir\\Debug\\cmTC_783ba.tlog\\cmTC_783ba.lastbuildstate".
+        Done Building Project "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hpdiy\\cmTC_783ba.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.54
+        Time Elapsed 00:00:00.50
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-hhppcn"
-      binary: "C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-hhppcn"
+      source: "C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-g826ui"
+      binary: "C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-g826ui"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-hhppcn'
+        Change Dir: 'C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-g826ui'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bcfab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1d7bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-        Build started 5/23/2025 8:03:42 PM.
+        Build started 5/23/2025 10:24:03 PM.
         
-        Project "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhppcn\\cmTC_bcfab.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g826ui\\cmTC_1d7bf.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_bcfab.dir\\Debug\\".
+          Creating directory "cmTC_1d7bf.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhppcn\\Debug\\".
-          Creating directory "cmTC_bcfab.dir\\Debug\\cmTC_bcfab.tlog\\".
+          Creating directory "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g826ui\\Debug\\".
+          Creating directory "cmTC_1d7bf.dir\\Debug\\cmTC_1d7bf.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_bcfab.dir\\Debug\\cmTC_bcfab.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_bcfab.dir\\Debug\\cmTC_bcfab.tlog\\unsuccessfulbuild".
+          Creating "cmTC_1d7bf.dir\\Debug\\cmTC_1d7bf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1d7bf.dir\\Debug\\cmTC_1d7bf.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bcfab.dir\\Debug\\\\" /Fd"cmTC_bcfab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1d7bf.dir\\Debug\\\\" /Fd"cmTC_1d7bf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bcfab.dir\\Debug\\\\" /Fd"cmTC_bcfab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1d7bf.dir\\Debug\\\\" /Fd"cmTC_1d7bf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhppcn\\Debug\\cmTC_bcfab.exe" /INCREMENTAL /ILK:"cmTC_bcfab.dir\\Debug\\cmTC_bcfab.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-hhppcn/Debug/cmTC_bcfab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-hhppcn/Debug/cmTC_bcfab.lib" /MACHINE:X64  /machine:x64 cmTC_bcfab.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_bcfab.vcxproj -> C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhppcn\\Debug\\cmTC_bcfab.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g826ui\\Debug\\cmTC_1d7bf.exe" /INCREMENTAL /ILK:"cmTC_1d7bf.dir\\Debug\\cmTC_1d7bf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-g826ui/Debug/cmTC_1d7bf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Mokhtar/Desktop/AGE Engine/build/CMakeFiles/CMakeScratch/TryCompile-g826ui/Debug/cmTC_1d7bf.lib" /MACHINE:X64  /machine:x64 cmTC_1d7bf.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_1d7bf.vcxproj -> C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g826ui\\Debug\\cmTC_1d7bf.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_bcfab.dir\\Debug\\cmTC_bcfab.tlog\\unsuccessfulbuild".
-          Touching "cmTC_bcfab.dir\\Debug\\cmTC_bcfab.tlog\\cmTC_bcfab.lastbuildstate".
-        Done Building Project "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhppcn\\cmTC_bcfab.vcxproj" (default targets).
+          Deleting file "cmTC_1d7bf.dir\\Debug\\cmTC_1d7bf.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1d7bf.dir\\Debug\\cmTC_1d7bf.tlog\\cmTC_1d7bf.lastbuildstate".
+        Done Building Project "C:\\Users\\Mokhtar\\Desktop\\AGE Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g826ui\\cmTC_1d7bf.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.52
+        Time Elapsed 00:00:00.51
         
       exitCode: 0
   -

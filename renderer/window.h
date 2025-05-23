@@ -1,5 +1,5 @@
 // renderer.h
 #pragma once
 
-int hello();
+int window();
 
