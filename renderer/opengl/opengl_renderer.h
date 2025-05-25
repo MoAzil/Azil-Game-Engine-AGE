@@ -1,8 +1,18 @@
-#ifndef OPENGL_RENDERER_H
+
 #define OPENGL_RENDERER_H
 
-void initRenderer();
-void renderTriangle();
-void cleanupRenderer();
+#include <string>
 
-#endif
+// Initializes shader and renderer state
+void glinitRenderer();
+
+
+// Renders a previously loaded mesh
+void glrenderMesh();
+
+// Deletes a previously loaded mesh
+void gldeleteMesh();
+
+// Cleans up all loaded data (meshes, shaders)
+void glcleanupRenderer();
+

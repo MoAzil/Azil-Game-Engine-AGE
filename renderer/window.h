@@ -1,5 +1,5 @@
-// renderer.h
+
 #pragma once
 
-int window();
+int window_manager();
 

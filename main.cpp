@@ -22,5 +22,5 @@ int main (){
 
     }
 
-    window();
+    window_manager();
 }

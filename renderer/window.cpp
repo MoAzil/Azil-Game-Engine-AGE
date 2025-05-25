@@ -1,12 +1,24 @@
 #include <iostream>
 using namespace std;
+#include <imgui.h>
+#include <imgui_impl_glfw.h>
+#include <imgui_impl_opengl3.h>
+
+
 #include "window.h"
 #include "opengl/glad/glad.h"
-#include "opengl/GLFW/glfw3.h"
+#include <GLFW/glfw3.h>
 #include <chrono>
 #include <sstream>
 #include <string>
-#include "opengl/opengl_renderer.h"
+#include "render_logic.h"
+
+
+
+
+
+
+
 
 
 void processInput(GLFWwindow *window)
@@ -15,7 +27,7 @@ void processInput(GLFWwindow *window)
         glfwSetWindowShouldClose(window, true);
 }
 
-int window()
+int window_manager()
 {
     
     glfwInit();
@@ -43,14 +55,34 @@ int window()
     // Declare timing variables OUTSIDE the loop
     auto lastTime = chrono::high_resolution_clock::now();
     int nbFrames = 0;
-    
-    initRenderer();
+    prepaire_renderer();
+
+
+    // Setup Dear ImGui context
+    IMGUI_CHECKVERSION();
+    ImGui::CreateContext();
+    ImGuiIO& io = ImGui::GetIO();
+    io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;     // Enable Keyboard Controls
+    io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;      // Enable Gamepad Controls
+
+
+    // Setup Platform/Renderer backends
+    ImGui_ImplGlfw_InitForOpenGL(window, true);          // Second param install_callback=true will install GLFW callbacks and chain to existing ones.
+    ImGui_ImplOpenGL3_Init();
+
+
+
+
+
     // === Main loop ===
     while (!glfwWindowShouldClose(window))
     {
         // FPS counter
-        
-        
+        ImGui_ImplOpenGL3_NewFrame();
+        ImGui_ImplGlfw_NewFrame();
+        ImGui::NewFrame();
+        ImGui::Text("Hello, world %d", 123);
+
 
 
         auto currentTime = chrono::high_resolution_clock::now();
@@ -71,15 +103,24 @@ int window()
         // rendering
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
-        renderTriangle();
+        launch_renderer();
+
+        ImGui::Render();
+        ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
         // swap and poll
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
 
     // cleanup
-    cleanupRenderer();
+    ImGui_ImplOpenGL3_Shutdown();
+    ImGui_ImplGlfw_Shutdown();
+    ImGui::DestroyContext();
+    stop_renderer();
     glfwDestroyWindow(window);
     glfwTerminate();
     return 0;
 }
+
+
+
