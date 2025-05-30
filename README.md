@@ -46,6 +46,3 @@ This engine is in early development. Major systems like rendering, node tree, an
 ## 📄 License
 
 To be decided.
-
-v-0.0.1 nothing
-v-0.0.1.2 triangle render in opengl
