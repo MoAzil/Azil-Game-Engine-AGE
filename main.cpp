@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 #include ".\renderer\window.h"
+#include "project_maker.h"
 #include <string>
 
 int main (){
@@ -22,5 +23,9 @@ int main (){
 
     }
 
-    window_manager();
+    project_window();
+    if (project_created == 1){
+        window_manager();
+    }; 
+
 }

@@ -178,9 +178,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{F0C14BD0-1F97-3462-859E-098EBD1A78BA}</Project>
       <Name>AGE</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\Mokhtar\Desktop\AGE Engine\build\distr\flecs.vcxproj">
+      <Project>{5FB9CC7E-3A71-3112-BA08-B0D4DADBDCD6}</Project>
+      <Name>flecs</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\Mokhtar\Desktop\AGE Engine\build\imgui.vcxproj">
       <Project>{3AFB6B8C-353C-38FA-AD7D-DE60629409CD}</Project>
       <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Mokhtar\Desktop\AGE Engine\build\project_maker.vcxproj">
+      <Project>{9F6DF2AC-B509-3588-AC26-5C0D88C5663A}</Project>
+      <Name>project_maker</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\Mokhtar\Desktop\AGE Engine\build\window_manager.vcxproj">
       <Project>{3C8CE521-29C8-35A7-9048-DB06E46EBF02}</Project>

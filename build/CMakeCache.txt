@@ -210,13 +210,10 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Dependencies for the target
-imgui_LIB_DEPENDS:STATIC=general;C:/Users/Mokhtar/Desktop/AGE Engine/renderer/opengl/glfw3.lib;
+project_maker_LIB_DEPENDS:STATIC=general;imgui;
 
 //Dependencies for the target
-window_LIB_DEPENDS:STATIC=general;imgui;general;C:/Users/Mokhtar/Desktop/AGE Engine/renderer/opengl/glfw3.lib;general;opengl32;
-
-//Dependencies for the target
-window_manager_LIB_DEPENDS:STATIC=general;imgui;general;C:/Users/Mokhtar/Desktop/AGE Engine/renderer/opengl/glfw3.lib;general;opengl32;
+window_manager_LIB_DEPENDS:STATIC=general;imgui;
 
 
 ########################
@@ -305,7 +302,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

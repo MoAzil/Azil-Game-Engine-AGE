@@ -1,0 +1,10 @@
+^C:\USERS\MOKHTAR\DESKTOP\AGE ENGINE\DISTR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Mokhtar/Desktop/AGE Engine" "-BC:/Users/Mokhtar/Desktop/AGE Engine/build" --check-stamp-file "C:/Users/Mokhtar/Desktop/AGE Engine/build/distr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

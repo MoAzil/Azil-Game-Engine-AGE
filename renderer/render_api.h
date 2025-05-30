@@ -1,24 +1,20 @@
-
+// render_api.h
 #pragma once
-
-#include <iostream>
 #include <string>
-using namespace std;
+#include <vector>
+#include "mesh.h"
+#include <glm/glm.hpp> // Required for glm::vec3
 
+extern int renderapi;
 
-extern int renderapi; // Declaration only
-
-// Initializes shader and renderer state
 void initRenderer();
-
-
-
-// Renders a previously loaded mesh
-void renderMesh();
-
-// Deletes a previously loaded mesh
-void deleteMesh();
-
-// Cleans up all loaded data (meshes, shaders)
+void RenderAllMeshes(unsigned int screenWidth, unsigned int screenHeight,
+                     const glm::vec3& cameraPos, const glm::vec3& cameraFront, const glm::vec3& cameraUp);
+void renderMesh(const std::string& meshID, const MeshData& mesh, const MaterialData& mat,
+                const float position[3], const float rotation[3]);
 void cleanupRenderer();
+void deleteMesh(const std::string& meshID);
 
+// NEW: Add this declaration
+void setMeshTransform(const std::string& meshID, const glm::vec3& position,
+                      const glm::vec3& rotationDegrees, const glm::vec3& scale);

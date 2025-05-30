@@ -73,6 +73,11 @@
         "xutility": "cpp",
         "cstdarg": "cpp",
         "fstream": "cpp",
-        "typeindex": "cpp"
+        "typeindex": "cpp",
+        "codecvt": "cpp",
+        "set": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp",
+        "unordered_set": "cpp"
     }
 }
